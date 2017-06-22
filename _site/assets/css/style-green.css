@@ -166,10 +166,10 @@ margin: 25px 20px;
 }
 
 /* =============================================================
-Projects SECTION STYLES
+EXPERIENCE SECTION STYLES
 ============================================================ */
 
-#projects .projects-wrapper {
+#experience .experience-wrapper {
 padding: 20px;
 border-radius: 5px;
 -moz-border-radius: 5px;
@@ -183,15 +183,11 @@ cursor: pointer;
 transition: all 0.5s ease-in-out;
 }
 
-#projects .projects-wrapper:hover {
+#experience .experience-wrapper:hover {
 background-color: rgba(255, 255, 255, 0.20);
 }
 
-#projects h3 {
-font-family: 'Oswald', sans-serif;
-}
-
-#projects .projects-wrapper i {
+#experience .experience-wrapper i {
 margin: 5px;
 color: rgb(57, 171, 111);
 font-size: 60px;
@@ -199,10 +195,10 @@ font-size: 60px;
 
 
 /*============================
-EXPERIENCE SECTION STYLES
+PROJECTS SECTION STYLES
 ==============================*/
 
-#experience .caegories a.active {
+#projects .caegories a.active {
 background-color: transparent;
 color: #fff;
 }
@@ -213,12 +209,12 @@ color: #fff;
 transition-duration: 0.8s;
 }
 
-#experience .experience-wrapper {
+#projects .projects-wrapper {
 padding: 10px;
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
-margin-bottom: 40px;
+margin-bottom: 55px;
 background-color: rgba(255, 255, 255, 0.1);
 cursor: pointer;
 -webkit-transition: all 0.5s ease-in-out;
@@ -228,7 +224,7 @@ transition: all 0.5s ease-in-out;
 border: 1px solid rgb(57, 171, 111);
 }
 
-#experience .experience-wrapper:hover {
+#projects .projects-wrapper:hover {
 background-color: transparent;
 border: 1px solid rgb(57, 171, 111);
 
@@ -240,7 +236,7 @@ filter: alpha(opacity=80); /* ie lt 7 */
 
 }
 
-#experience .experience-wrapper h4 {
+#projects .projects-wrapper h4 {
 padding-top: 10px;
 }
 
